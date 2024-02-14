@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyA-d9SpfqFlzu_YS8F2fHJeuRYm3G9oE4U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>554217936381</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>temp.FirebaseBootcamp</string>
+	<key>PROJECT_ID</key>
+	<string>fir-bootcamp-d17cd</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-bootcamp-d17cd.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:554217936381:ios:ef47000220b5a2c4e93594</string>
+</dict>
+</plist>
