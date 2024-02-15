@@ -64,6 +64,33 @@ struct ContentView: View {
                 Rectangle()
                     .frame(width: 350, height: 1)
                     .foregroundColor(.white)
+                VStack {
+                    Button {
+                        register()
+                    } label: {
+                        Text("Sign Up")
+                            .bold()
+                            .frame(width: 200, height: 40)
+                            
+                            .background(.linearGradient(colors: [.orange, .red], startPoint: .topLeading, endPoint: .bottomTrailing)
+                            )
+                            .cornerRadius(10)
+    //                        .offset(y: 80)
+                            .foregroundColor(.white)
+                            
+                        
+                     }
+                    
+                    Button{
+                        login()
+                    } label: {
+                        Text("Alrady have an account? Login")
+                            .bold()
+                            .foregroundColor(.white)
+    //                        .offset(y: 80)
+                    }
+                    
+                }.offset( y: 80)
         }
     }
     
