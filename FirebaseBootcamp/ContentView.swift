@@ -21,6 +21,16 @@ struct ContentView: View {
             }
         }
     }
+    
+    func login(){
+        Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
+            if error != nil {
+                print(error?.localizedDescription ?? "")
+            } else {
+                print("success")
+            }
+        }
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
