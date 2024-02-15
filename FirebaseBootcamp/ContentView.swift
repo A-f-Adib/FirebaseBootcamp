@@ -18,6 +18,25 @@ struct ContentView: View {
                 .frame(width: 1200, height: 500)
                 .rotationEffect(.degrees(135))
                 .offset(y: -350)
+            
+            VStack(spacing: 20) {
+                Text("Welcome to")
+                    .foregroundColor(.white)
+                    .font(.system(size: 50, weight: .bold, design: .monospaced))
+                    .offset(x: 0, y: -150)
+                
+                HStack {
+                    Text("Firebase")
+                        .foregroundColor(.white)
+                        .font(.system(size: 30, weight: .bold, design: .monospaced))
+                    .offset(x: -5, y: -150)
+                    
+                    Text("Project")
+                        .foregroundColor(.white)
+                        .font(.system(size: 30, weight: .bold, design: .monospaced))
+                        .offset(x: -5, y: -150)
+                    
+                }
         }
     }
     
