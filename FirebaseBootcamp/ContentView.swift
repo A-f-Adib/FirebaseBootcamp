@@ -119,15 +119,4 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-extension View {
-    func placeholder<Content: View> (
-        when show: Bool,
-        alg: Alignment = .leading,
-        @ViewBuilder placeholder : () -> Content) -> some View {
-        
-            ZStack(alignment: alg) {
-                placeholder().opacity(show ? 1 : 0)
-              self
-        }
-    }
-}
+
