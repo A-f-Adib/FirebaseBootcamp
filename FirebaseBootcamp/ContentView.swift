@@ -38,20 +38,6 @@ struct ContentView: View {
                     
                 }
                 
-                TextField("Email" , text: $email)
-                    .foregroundColor(.white)
-                    .textFieldStyle(.plain)
-                    .placeholder(when: email.isEmpty) {
-                        Text("Email")
-                            .foregroundColor(.white)
-                            .bold()
-                    }
-                Rectangle()
-                    .frame(width: 350, height: 1)
-                    .foregroundColor(.white)
-                
-                
-                
                 
                 SecureField("Password", text: $password)
                     .foregroundColor(.white)
