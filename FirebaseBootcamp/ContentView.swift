@@ -39,17 +39,7 @@ struct ContentView: View {
                 }
                 
                 
-                SecureField("Password", text: $password)
-                    .foregroundColor(.white)
-                    .textFieldStyle(.plain)
-                    .placeholder(when: password.isEmpty) {
-                        Text("Password")
-                            .foregroundColor(.white)
-                            .bold()
-                    }
-                Rectangle()
-                    .frame(width: 350, height: 1)
-                    .foregroundColor(.white)
+                
                 VStack {
                     Button {
                         register()
