@@ -8,71 +8,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
+        
         ZStack{
             
-            Color.black
+            Color.green
             
-            RoundedRectangle(cornerRadius: 30, style: .continuous)
-                .foregroundStyle(.linearGradient(colors: [.orange, .red], startPoint: .topLeading, endPoint: .bottomTrailing))
-                .frame(width: 1200, height: 500)
-                .rotationEffect(.degrees(135))
-                .offset(y: -350)
             
             VStack(spacing: 20) {
-                Text("Welcome to")
+                Text("Welcome")
                     .foregroundColor(.white)
                     .font(.system(size: 50, weight: .bold, design: .monospaced))
                     .offset(x: 0, y: -150)
                 
                 HStack {
-                    Text("Firebase")
+                    Text("Login")
+                        .foregroundColor(.white)
+                        .font(.system(size: 30, weight: .bold, design: .monospaced))
+                    .offset(x: -5, y: -150)
+                    Image(systemName: "person.fill")
                         .foregroundColor(.white)
                         .font(.system(size: 30, weight: .bold, design: .monospaced))
                     .offset(x: -5, y: -150)
                     
-                    Text("Project")
-                        .foregroundColor(.white)
-                        .font(.system(size: 30, weight: .bold, design: .monospaced))
-                        .offset(x: -5, y: -150)
                     
                 }
                 
                 
                 
-                VStack {
-                    Button {
-                        register()
-                    } label: {
-                        Text("Sign Up")
-                            .bold()
-                            .frame(width: 200, height: 40)
-                            
-                            .background(.linearGradient(colors: [.orange, .red], startPoint: .topLeading, endPoint: .bottomTrailing)
-                            )
-                            .cornerRadius(10)
-    //                        .offset(y: 80)
-                            .foregroundColor(.white)
-                            
-                        
-                     }
-                    
-                    Button{
-                        login()
-                    } label: {
-                        Text("Alrady have an account? Login")
-                            .bold()
-                            .foregroundColor(.white)
-    //                        .offset(y: 80)
-                    }
-                    
-                }.offset( y: 80)
+            }
         }
     }
-    
-   
-    
-   
 }
 
 struct ContentView_Previews: PreviewProvider {
