@@ -94,13 +94,7 @@ struct ContentView: View {
         }
     }
     
-    func register() {
-        Auth.auth().createUser(withEmail: email, password: password) { result, error in
-            if error != nil {
-                print(error!.localizedDescription)
-            }
-        }
-    }
+   
     
    
 }
