@@ -17,13 +17,17 @@ struct ContentView: View {
             
             
             VStack(spacing: 20) {
+                
                 Text("Welcome")
+                
+                    .font(.title.bold())
                 
                     .foregroundColor(.white)
                     
                     .offset(x: 0, y: -150)
                 
                 HStack {
+                    
                     Text("Login")
                     
                         .foregroundColor(.white)
