@@ -24,8 +24,10 @@ struct ContentView: View {
                 
                 HStack {
                     Text("Login")
+                    
                         .foregroundColor(.white)
-                        .font(.system(size: 30, weight: .bold, design: .monospaced))
+                    
+                        .font(.title.bold())
                     
                     .offset(x: -5, y: -150)
                     
