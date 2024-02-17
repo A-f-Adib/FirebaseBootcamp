@@ -28,9 +28,12 @@ struct ContentView: View {
                         .font(.system(size: 30, weight: .bold, design: .monospaced))
                     
                     .offset(x: -5, y: -150)
+                    
                     Image(systemName: "person.fill")
+                    
                         .foregroundColor(.white)
-                        .font(.system(size: 30, weight: .bold, design: .monospaced))
+                    
+                       
                     .offset(x: -5, y: -150)
                 }
             }
