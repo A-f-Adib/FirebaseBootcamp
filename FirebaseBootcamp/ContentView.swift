@@ -18,8 +18,9 @@ struct ContentView: View {
             
             VStack(spacing: 20) {
                 Text("Welcome")
+                
                     .foregroundColor(.white)
-                    .font(.system(size: 50, weight: .bold, design: .monospaced))
+                    
                     .offset(x: 0, y: -150)
                 
                 HStack {
