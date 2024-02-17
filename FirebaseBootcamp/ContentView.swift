@@ -32,16 +32,12 @@ struct ContentView: View {
                     
                         .font(.title.bold())
                     
-                    .offset(x: -5, y: -150)
-                    
                     Image(systemName: "person.fill")
                     
                         .font(.title.bold())
                     
                         .foregroundColor(.white)
                     
-                       
-                    .offset(x: -5, y: -150)
                 }
             }
         }
